@@ -15,15 +15,18 @@ body {
     text-decoration: underline;
     /* text-decoration-style: solid; */
 }
+.container{
+    display: inline-blcok;
+}
 
 .card {
     border: none;
     padding: 10px;
     margin: 20px 20px 15px;
     width: 20%;
+    /* height: 100%; */
     display: inline-block;
-    height: 550px;
-    background-image: linear-gradient(to top left, #304352, #d7d2cc);
+    background: linear-gradient(to top left, #304352, #d7d2cc);
     border-radius: 15px;
     box-shadow: 20px 20px 20px #05090c;
 }
@@ -43,7 +46,6 @@ h4 {
 }
 
 .paragraph {
-    /* border: 1px solid black; */
     border-radius: 15px 15px 20px;
     padding: 10px;
     text-align: justify;
