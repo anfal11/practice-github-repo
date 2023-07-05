@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -15,21 +16,23 @@ body {
     text-decoration: underline;
     /* text-decoration-style: solid; */
 }
-.container{
-    display: inline-blcok;
-}
+/* .container{
+    display: flex;
+    flex-direction: row;
+} */
 
 .card {
     border: none;
     padding: 10px;
     margin: 20px 20px  15px;
     width: 20%;
-    height: 100%;
+    height:  575px;
     display: inline-block;
+    vertical-align: top;
     background: linear-gradient(to top left, #304352, #d7d2cc);
     border-radius: 15px;
-    box-shadow: 20px 20px 20px #05090c;
-    
+    box-shadow: 20px 20px 20px #05090c; 
+      
 }
 
 .pics {
@@ -52,6 +55,7 @@ h4 {
     text-align: justify;
     box-shadow: 10px 10px 30px #262f36;
     margin: 20px;
+    height: 300px;
 }
 
 .list {
